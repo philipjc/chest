@@ -1,5 +1,5 @@
 {
-  "name": "chest",
+  "name": "store-chest",
   "version": "1.0.0-beta.0",
   "description": "Local Storage",
   "main": "index.js",
