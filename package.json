@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/philipjc/chest.git"
+  },
   "keywords": [
     "storage",
     "local"
