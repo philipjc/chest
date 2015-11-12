@@ -1,6 +1,6 @@
 {
   "name": "store-chest",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.1-beta.0",
   "description": "Local Storage",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
     "local"
   ],
   "author": "philipjc <philipcox83@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "6.1.5"
+  }
 }
