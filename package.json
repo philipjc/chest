@@ -2,9 +2,9 @@
   "name": "store-chest",
   "version": "1.1.0",
   "description": "Local Storage",
-  "main": "index.js",
+  "main": "src/storeChest.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/storeChest.spec.js -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   "author": "philipjc <philipcox83@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel": "6.1.5"
+    "babel": "6.1.5",
+    "chai": "3.4.1",
+    "istanbul": "0.4.0",
+    "mocha": "2.3.3",
+    "mock-browser": "0.91.34"
   }
 }
